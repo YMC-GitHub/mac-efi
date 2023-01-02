@@ -1,0 +1,27 @@
+{
+  "name": "@ymc/make-macos-efi",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "workspace": [
+    "packages/**",
+    "private-pkgs/**"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ymc-github/make-macos-efi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ymc-github/make-macos-efi/issues"
+  },
+  "homepage": "https://github.com/ymc-github/make-macos-efi/blob/main/#readme",
+  "author": {
+    "name": "yemiancheng",
+    "email": "ymc.github@gmail.com",
+    "url": "https://github.com/ymc-github"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "esno": "^0.16.3"
+  }
+}

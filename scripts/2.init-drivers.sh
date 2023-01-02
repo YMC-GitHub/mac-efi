@@ -2,6 +2,8 @@
 #!/bin/sh
 
 # shim Drivers and Tools for debug
+# https://caizhiyuan.gitee.io/opencore-install-guide/installer-guide/opencore-efi.html
+# https://caizhiyuan.gitee.io/opencore-install-guide/macos-limits.html#gpu-support
 
 # only OpenRuntime.efi
 mkdir -p tmp; cp OpenCore/X64/EFI/OC/Drivers/OpenRuntime.efi tmp/OpenRuntime.efi ; rm -rf OpenCore/X64/EFI/OC/Drivers/* ; mv tmp/OpenRuntime.efi OpenCore/X64/EFI/OC/Drivers/OpenRuntime.efi ;rm -r tmp;

@@ -46,9 +46,16 @@ cp OpenCore/Docs/Sample.plist OpenCore/X64/EFI/OC/config.plist
 # set nvram
 # https://dortania.github.io/OpenCore-Install-Guide/config.plist/haswell.html#nvram
 # boot-args|-v debug=0x100 keepsyms=1 alcid=1
+# boot-args|-v keepsyms=1 debug=0x100 npci=0x2000 alcid=1 agdpmod=pikera
 # N CARD:
-# boot-args|agdpmod=pikera
+# boot-args|agdpmod=pikera # prevoid black screen
 # boot-args|-radcodec radpg=15 unfairgva=1
+
+# boot-args|alcid=1
+# boot-args|npci=0x2000
+
+# -radcodec radpg=15 unfairgva=1
+# agdpmod=pikera nvda_drv_vrl=1
 
 # 英文键盘时：
 # prev-lang:kbd|String|en-US:0

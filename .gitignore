@@ -55,6 +55,7 @@ ocat-win64
 
 # ignore database
 database-kexts
+database-kexts-custom
 
 # ignore workspace
 OpenCore
