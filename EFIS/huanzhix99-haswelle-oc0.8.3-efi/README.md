@@ -35,3 +35,18 @@
 
 ## 使用指南
 - [x] 替换U盘中的EFI
+
+## 主板设置
+- [x]  `del` -> `f9` -> `f10` -> `del`
+- [x]  `advance->ACPI Settings->ACPI Sleep State->Suspend Disabled`
+- [x]  `advance->Serial Port 1 Configuration->Serial Port->Disabled`
+- [x]  `advance->CSM Configuration->Video->UEFI`
+- [x]  `advance->USB Configuration->XHCI Hand-off->Enabled`
+- [x]  `advance->USB Configuration->EHCI Hand-off->Enabled`
+- [x]  `main->Processor Configuration->MSR Lock Control->Disabled`
+- [x]  `boot->Fast boot->Disabled`
+- [x]  `boot->Show Full Logo->Enabled`
+- [x]  set Boot Option Priorities for my u disk uefi
+- [x]  `f10` -> `del`
+- [x]  `advance->CSM Configuration->CSM Support->Disabled`
+- [x]  `f10`
