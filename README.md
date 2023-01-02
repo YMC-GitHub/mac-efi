@@ -11,7 +11,5 @@
 ## feat
 
 ### Catalina
-- [ ] Install macOS Catalina
-
-### Catalina
-- [ ] Install macOS Catalina
+- [x] Install macOS Catalina
+- [ ] Install macOS Big Sur
