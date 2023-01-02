@@ -1,6 +1,6 @@
 ```bash
 git init
-git add note; git commit --file msg.tmp.md;
+git add note; git commit --file .changeset/msg.note.tmp.md;
 git add err-log; git commit --file .changeset/msg.errlog.tmp.md;
 git add scripts; git commit --file .changeset/msg.script.tmp.md;
 

@@ -14,7 +14,9 @@
 
 - [x] collect efi `mkdir -p EFIS; cp -rf /g/sharevm/mac/huanzhix99-haswelle-oc0.8.3-efi EFIS/` `git add EFIS ; git commit --file .changeset/msg.efi.tmp.md;`
 
+- [x] device info `mkdir -p images ; cp -rf ~/desktop/RX570* images/` `git add images ; git commit --file .changeset/msg.device.tmp.md;`
 
+- [x] bios data `mkdir -p bios ; cp -rf ~/desktop/*.rom bios/` `git add bios ; git commit --file .changeset/msg.bios.tmp.md;`
 
 ## video
 - [x] install mac os
